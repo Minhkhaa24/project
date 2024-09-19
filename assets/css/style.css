@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+.nav ul {
+  display: flex;
+}
+
+header {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  height: 210px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+a:hover {
+  background-color: white;
+  color: red;
+  border-radius: 13px;
+  padding: 7px;
+  text-shadow: 1px 0 0 currentColor;
+}
+.btn {
+  background-color: yellow;
+  border-radius: 13px;
+  padding: 8px;
+  color: black;
+}
+.header.fixed {
+  position: sticky;
+  top: -7px;
+}
+.logo {
+  width: 120px;
+  height: 100px;
+  text-align: right;
+}
+.header .action {
+  margin-left: 500px;
+}
